@@ -1,0 +1,29 @@
+{
+  "Eventinfo": {
+    "Account_id": "NS_HME",
+    "DeviceId": "1234",
+    "Device_Type": "lights",
+    "Device_OEM": "Wiz",
+    "Device_Category": "table_lamp",
+    "Location": "Jacksonville",
+    "Device_attribute": {
+      "Power_status": "True",
+      "color": "white",
+      "hue": "50",
+      "saturation": "75",
+      "Temperature": "35",
+      "brightness": "80"
+    }
+  },
+  "User_Info": {
+    "Account_id": "NS_HME",
+    "Profile_id": "sk",
+    "event_id": "0001",
+    "triggered_from_flow": "TRUE",
+    "Region": "GMT-5",
+    "Timestamp": "4/1/23 19:23",
+    "Day": "Saturday",
+    "Subscription": "Premium"
+  }
+}
+
