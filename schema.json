@@ -1,0 +1,86 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["Eventinfo", "User_Info"],
+    "properties": {
+      "Eventinfo": {
+        "bsonType": "object",
+        "required": ["Account_id", "DeviceId", "Device_Type", "Device_OEM", "Device_Category", "Location", "Device_attribute"],
+        "properties": {
+          "Account_id": {
+            "bsonType": "string"
+          },
+          "DeviceId": {
+            "bsonType": "string"
+          },
+          "Device_Type": {
+            "bsonType": "string"
+          },
+          "Device_OEM": {
+            "bsonType": "string"
+          },
+          "Device_Category": {
+            "bsonType": "string"
+          },
+          "Location": {
+            "bsonType": "string"
+          },
+          "Device_attribute": {
+            "bsonType": "object",
+            "required": ["Power_status", "color", "hue", "saturation", "Temperature", "brightness"],
+            "properties": {
+              "Power_status": {
+                "bsonType": "string"
+              },
+              "color": {
+                "bsonType": "string"
+              },
+              "hue": {
+                "bsonType": "string"
+              },
+              "saturation": {
+                "bsonType": "string"
+              },
+              "Temperature": {
+                "bsonType": "string"
+              },
+              "brightness": {
+                "bsonType": "string"
+              }
+            }
+          }
+        }
+      },
+      "User_Info": {
+        "bsonType": "object",
+        "required": ["Account_id", "Profile_id", "event_id", "triggered_from_flow", "Region", "Timestamp", "Day", "Subscription"],
+        "properties": {
+          "Account_id": {
+            "bsonType": "string"
+          },
+          "Profile_id": {
+            "bsonType": "string"
+          },
+          "event_id": {
+            "bsonType": "string"
+          },
+          "triggered_from_flow": {
+            "bsonType": "string"
+          },
+          "Region": {
+            "bsonType": "string"
+          },
+          "Timestamp": {
+            "bsonType": "string"
+          },
+          "Day": {
+            "bsonType": "string"
+          },
+          "Subscription": {
+            "bsonType": "string"
+          }
+        }
+      }
+    }
+  }
+}
